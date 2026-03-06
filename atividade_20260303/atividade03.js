@@ -3,7 +3,6 @@ import leia from 'readline-sync'
 let codigo;
 let quantidade;
 let total;
-let produto;
 
 console.log("1 - Cachorro Quente = R$ 10.00")
 console.log("2 - X-Salada = R$ 15.00")
@@ -42,6 +41,6 @@ switch (codigo) {
         break
     default:
         console.log("Codigo invalido")
-
 } 
-    console.log(`Valor total da compra: R$ ${total.toFixed(2)}`)
+
+console.log(`Valor total da compra: R$ ${total.toFixed(2)}`)

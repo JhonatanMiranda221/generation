@@ -10,11 +10,8 @@ numero3 = leia.questionFloat('Digite o terceiro numero: ')
 
 if (numero1 + numero2 > numero3){
     console.log("A Soma de A + B é Maior do que C")
-}
-else if (numero1 + numero2 == numero3){
+} else if (numero1 + numero2 == numero3){
     console.log("A Soma de A + B é Igual a C")
-}
-else {
+} else {
     console.log("A A Soma de A + B é Menor do que C")
 }
-
